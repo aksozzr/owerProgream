@@ -1,0 +1,17 @@
+<view class='container'>
+    <form>
+      <view> 
+       <text decode="{{true}}" class='labelType'>  昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称：</text><input maxlength="15" class='inputType' />
+      </view>
+      <view> 
+       <text class='labelType'>联系电话：</text><input maxlength="15" class='inputType' />
+      </view>
+       <view> 
+       <text decode="{{true}}" class='labelType'>学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;校：</text><input maxlength="15" class='inputType' />
+      </view>
+      <view> 
+       <text class='labelType'>毕设题目：</text><input maxlength="15" class='inputType' />
+      </view>
+      <button type="primary" class='askInfo' > 咨询问价 </button>
+    </form>
+</view>

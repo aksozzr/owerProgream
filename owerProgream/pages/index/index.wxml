@@ -1,0 +1,6 @@
+<view class='container'>
+   <image class='logo' src='{{userInfo.avatarUrl}}'></image>
+   <view >欢迎 {{userInfo.nickName}} 来到鸿坤工作室</view>
+   <button  class='intoButton' bindtap='handerUrl'>项目展示</button>
+   <button class='askButton' bindtap='askUrl'>项目咨询</button>
+</view>

@@ -1,0 +1,16 @@
+<view class='container'>
+   <view class='term'>
+     <image src='{{term.avtaImg}}'></image>
+   </view>
+   <view class='head'>
+     <image src='{{term.headImg}}'></image>
+     <text>作者：{{term.author}}</text>
+   </view>
+   <view>
+     <text >{{term.content}}</text>
+   </view>
+   <view class='share'>
+    <image catchtap='collectInfo'  src="{{collectFalg ? '/images/icon/collection.png':'/images/icon/collection-anti.png'}}"></image>
+    <image catchtap='shareInfo' src='/images/icon/share-anti.png'></image>
+   </view>
+</view>

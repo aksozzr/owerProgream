@@ -1,0 +1,14 @@
+<template name='termInfo'>
+  <view class='container'>
+    <view class='infoTitle'>
+    <view>项目名称：{{title}}</view>
+     <view> 作者：{{author}}</view>
+      <image class='templateImage' src='{{avtaImg}}'>
+      </image>
+    </view>
+    <text>咨询价：{{price}}</text>
+     <view>
+       <text class='infoText'>{{content}}</text>
+     </view>
+  </view>
+</template>

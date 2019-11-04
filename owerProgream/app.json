@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/term/termInfo",
+    "pages/ask/askInfo"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#787DB4",
+    "navigationBarTitleText": "鸿坤工作室"
+  }
+}
